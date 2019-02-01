@@ -1,0 +1,20 @@
+*{
+    outline:none
+};
+header{
+    position:relative;
+    z-index: 100;
+}
+p{
+    font-size: 1.15rem;
+}
+.navbar{
+    background:transparent;
+    transition: 0.5s;
+}
+.navbar.scrolled{
+    background: #000000;
+    transition: 0.5s;
+}
+.navbar-expand-lg navbar-light bg-light fixed-top.navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);

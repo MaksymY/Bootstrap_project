@@ -10,12 +10,13 @@
   <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <a class="navbar-brand" href="#">Ukraine</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -102,10 +103,124 @@
         <div>
           <h1>Adventure is Everywhere</h1>
           <p>Did you know that second biggest cave in the world is located in Ukraine? The Optimistic cave now consists of 10 sectors that differ from each other by nature, size and colors. However, this place continues to be explored by professionals. Its total length is more than 200 km and getting bigger every year with discovering of new locations and roads. Here you have a chance to go for a few days underground extreme adventure, explore the cave and even spend here a night with a guidance of professional cave explorers.</p>
+          <a href="#" class="btn btnD1">Read More</a>
         </div>
       </div>
     </div>
   </section>
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="offset-sm-2 col-sm-8">
+          <div class="headerText">
+            <h2>Our Latest Post</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse natus soluta dolor tempora repellendus officiis ullam, dolorum debitis reiciendis alias animi repellat facere vel sed molestiae ea blanditiis quibusdam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-6">
+            <div class="blogpost">
+              <div class="imgBx">
+                <img src="img/francesco-ungaro-421419-unsplash.jpg" class="img-fluid">
+              </div>
+              <div class="content">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam eius iusto fugit voluptatem pariatur, necessitatibus laborum. Voluptas sit commodi quidem impedit nemo possimus a delectus praesentium quam et. Cumque...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="blogpost">
+                <div class="imgBx">
+                  <img src="img/jordan-pulmano-1272644-unsplash.jpg" class="img-fluid">
+                </div>
+                <div class="content">
+                  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam eius iusto fugit voluptatem pariatur, necessitatibus laborum. Voluptas sit commodi quidem impedit nemo possimus a delectus praesentium quam et. Cumque...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="blogpost">
+                  <div class="imgBx">
+                    <img src="img/ramdan-authentic-1325749-unsplash.jpg" class="img-fluid">
+                  </div>
+                  <div class="content">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam eius iusto fugit voluptatem pariatur, necessitatibus laborum. Voluptas sit commodi quidem impedit nemo possimus a delectus praesentium quam et. Cumque...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                  <div class="blogpost">
+                    <div class="imgBx">
+                      <img src="img/eberhard-grossgasteiger-1242779-unsplash.jpg" class="img-fluid">
+                    </div>
+                    <div class="content">
+                      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magnam eius iusto fugit voluptatem pariatur, necessitatibus laborum. Voluptas sit commodi quidem impedit nemo possimus a delectus praesentium quam et. Cumque...</p>
+                    </div>
+                  </div>
+                </div>
+       </div>
+    </div>
+
+  </section>
+
+  <section class="contact" id="contact">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="headerText text-center">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+        <div class="row clearfix">
+          <div class="offset-sm-2 col-sm-8">
+            <form action="">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="text" name="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Phone</label>
+                <input type="text" name="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control textarea" name=""></textarea>
+              </div>
+              <div class="from-group">
+                <button class="btn btnD1">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook"></i>
+            <li><a href="#"><i class="fa fa-twitter"></i>
+            <li><a href="#"><i class="fa fa-google-plus"></i>
+            <li><a href="#"><i class="fa fa-instagram"></i>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
     
 </body>
 </html>
